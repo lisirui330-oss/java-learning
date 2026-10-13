@@ -5,15 +5,15 @@
 ## 阶段清单
 - [x] 阶段0：环境搭建 + Git 入门（已完成第一个 HelloWorld ✅）
 - [x] 阶段1：Java 基础语法（变量/类型/Scanner/if/for/方法/数组/Random/&&/while ✅）
-- [x] 阶段2：面向对象 + 数据结构 🚧 进行中（类与对象、构造方法、ArrayList、封装private/this 已拿下）
+- [x] 阶段2：面向对象 + 数据结构 🚧 进行中（类与对象、构造方法、ArrayList、封装private/this、继承extends/super、重写@Override、多态 已拿下；接口/异常待学）
 - [ ] 阶段3：Spring Boot 后端
 - [ ] 阶段4：AI 应用项目（跑酷游戏工具 / AIGC 小产品）
 
 ## 已掌握技能
-`变量与类型` `Scanner输入` `if/for/while` `方法与return` `数组` `Random` `类与对象` `构造方法` `ArrayList` `封装private/this`
+`变量与类型` `Scanner输入` `if/for/while` `方法与return` `数组` `Random` `类与对象` `构造方法` `ArrayList` `封装private/this` `继承extends` `super` `重写@Override` `多态`
 
 ## 代码备份
-全部课程代码在 [code/](./code/) 目录：Day01~Day10 课件 + 作业 + 默写练习，含封装版跑酷游戏。
+全部课程代码在 [code/](./code/) 目录：Day01~Day11 课件 + 作业 + 默写练习，含封装版跑酷游戏、继承多态实验。
 
 ## 记录
 - 2026-10-05：创建仓库，配好 Git，写下第一个 HelloWorld.java 🚀
@@ -23,3 +23,6 @@
 - 2026-10-10：Day7 类与对象、构造方法——正式进入面向对象，独立写出 Obstacle 障碍类
 - 2026-10-11：Day8 玩家+障碍协作的综合跑酷游戏（还能默写出整局！）；Day9 ArrayList 动态列表 💪
 - 2026-10-12：Day10 封装（private 锁数据 + this 区分撞名 + getter/hurt/addScore 正门方法），把 Day9 跑酷游戏升级成标准 Java 封装写法 🔒
+- 2026-10-13：Day11 继承与多态（extends 白拿父类字段 / super 交数据给父类 / @Override 重写 / 父类类型 ArrayList 装各种子类统一调用）🧬
+  - 产出：`Day11_Inheritance`（课堂版）、`Day11_Inheritance_Encapsulated`（父类 private+getter 封装版）、`Day11_Homework`（Barrier/Wall/Trap 随机抽调 appear）、`Day11_Lab`（6 个可运行实验，含故意写坏看报错）
+- 2026-10-13：Day12 起**转轨"编程思维"训练** 🧠 —— 不再按语法推进，改成需求驱动：先写中文步骤再写 Java，脚手架逐档递减，围绕校园跑酷游戏主线项目练拆解
