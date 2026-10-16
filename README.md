@@ -10,7 +10,7 @@
 - [ ] 阶段4：AI 应用项目（跑酷游戏工具 / AIGC 小产品）
 
 ## 已掌握技能
-`变量与类型` `Scanner输入` `if/for/while` `方法与return` `数组` `Random` `类与对象` `构造方法` `ArrayList` `封装private/this` `继承extends` `super` `重写@Override` `多态`
+`变量与类型` `Scanner输入` `if/for/while` `方法与return` `数组` `Random` `类与对象` `构造方法` `ArrayList` `封装private/this` `继承extends` `super` `重写@Override` `多态` `两层循环嵌套`
 
 ## 代码备份
 全部课程代码在 [code/](./code/) 目录：Day01~Day11 课件 + 作业 + 默写练习，含封装版跑酷游戏、继承多态实验。
@@ -26,3 +26,6 @@
 - 2026-10-13：Day11 继承与多态（extends 白拿父类字段 / super 交数据给父类 / @Override 重写 / 父类类型 ArrayList 装各种子类统一调用）🧬
   - 产出：`Day11_Inheritance`（课堂版）、`Day11_Inheritance_Encapsulated`（父类 private+getter 封装版）、`Day11_Homework`（Barrier/Wall/Trap 随机抽调 appear）、`Day11_Lab`（6 个可运行实验，含故意写坏看报错）
 - 2026-10-13：Day12 起**转轨"编程思维"训练** 🧠 —— 不再按语法推进，改成需求驱动：先写中文步骤再写 Java，脚手架逐档递减，围绕校园跑酷游戏主线项目练拆解
+- 2026-10-16：Day12 思维训练实战《跑酷闯关》完整收工 🏃 —— **自己独立完成两层循环嵌套**（外层 3 关 × 内层 8 步）、难度递增 `(g+1)` 倍率、关间回血带 800 上限、死亡双 break 提前退出、三类障碍计数统计
+  - 产出：`PhaseA.java`
+  - 踩过并记住的坑：循环变量从 0 开始（"第几关"要 +1）、`if(...);` 分号空语句、单文件编译通过≠能运行（要全量编译）、编译失败时跑的是旧字节码、血量/伤害数值要算期望否则必死
