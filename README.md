@@ -5,12 +5,12 @@
 ## 阶段清单
 - [x] 阶段0：环境搭建 + Git 入门（已完成第一个 HelloWorld ✅）
 - [x] 阶段1：Java 基础语法（变量/类型/Scanner/if/for/方法/数组/Random/&&/while ✅）
-- [x] 阶段2：面向对象 + 数据结构 🚧 进行中（类与对象、构造方法、ArrayList、封装private/this、继承extends/super、重写@Override、多态 已拿下；接口/异常待学）
+- [x] 阶段2：面向对象 + 数据结构（类与对象、构造方法、ArrayList、封装private/this、继承extends/super、重写@Override、多态、instanceof 类型判断 已拿下 ✅；综合题《校园跑酷·期末大考》收官检验全部知识点；接口/异常 Day12+ 补）
 - [ ] 阶段3：Spring Boot 后端
 - [ ] 阶段4：AI 应用项目（跑酷游戏工具 / AIGC 小产品）
 
 ## 已掌握技能
-`变量与类型` `Scanner输入` `if/for/while` `方法与return` `数组` `Random` `类与对象` `构造方法` `ArrayList` `封装private/this` `继承extends` `super` `重写@Override` `多态` `两层循环嵌套` `Scanner键盘输入` `boolean开关量`
+`变量与类型` `Scanner输入` `if/for/while` `方法与return` `数组` `Random` `类与对象` `构造方法` `ArrayList` `封装private/this` `继承extends` `super` `重写@Override` `多态` `两层循环嵌套` `Scanner键盘输入` `boolean开关量` `instanceof类型判断` `嵌套循环游戏实战` `难度递增` `护盾状态机` `连击计分` `交互式游戏` `全量编译验证`
 
 ## 代码备份
 全部课程代码在 [code/](./code/) 目录：Day01~Day11 课件 + 作业 + 默写练习，含封装版跑酷游戏、继承多态实验、PhaseA/B 思维训练实战。
@@ -32,3 +32,6 @@
 - 2026-10-16：PhaseB 第一敲《猜数字》🎯 —— 引入此前未学的 `Scanner` 键盘输入 + `boolean` 开关量，独立完成"Random 想数 + for 10次 + if/else if 判大小 + break 提前退出 + 计数器 + win 标记区分猜中/没猜中"。逻辑分支两路均验证通过（猜中打印"对了"且不打印答案；没猜中打印"正确答案是X"）
   - 产出：`PhaseB.java`
   - 顺手修了 PhaseA 一个真 bug：护盾免疫判断没区分"伤害/回血"，导致捡盾期间抽到药水不回血；加 `mob.damage > 0` 条件后药水正常生效（对比实验：护盾激活+药水，旧逻辑血卡100、新逻辑回血到160）
+- 2026-10-19：综合题《校园跑酷·期末大考》收官 —— 把 Day1~11 + PhaseA/B 全部知识点（封装/继承/多态/@Override/instanceof/嵌套循环/Random/Scanner/boolean/数值兜底/break层级/连击计分/难度递增）揉进一个交互式跑酷游戏；全程用户独立编码，我只在卡住时讲解（用户反复要求"不要改代码"，最后才许可直接修 bug）；修掉的 bug：伤害累乘（误用 setDamage 改写障碍对象）、护盾倒计时变负、死亡后仍开下一关（break 只跳内层循环）、护盾免疫漏判、main 签名、大括号不配平；全量编译通过。这是"编程思维"训练与全部语法的结业检验，之后回 Day12 正常课程（目标 AI 应用工程师）
+  - 产出：`PhaseC.java`（综合题）
+  - 用户能力信号：从 10-13 诊断"PhaseA 薄弱（大括号/循环细节/跳步骤）"，到能主动发现"护盾无限开无解""伤害累乘"等设计/逻辑漏洞，并能质疑"间接用 damage 判断"要求直接 instanceof —— 编程思维明显进化
